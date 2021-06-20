@@ -1,0 +1,78 @@
+<section class="bg-color">
+
+<div class="container">
+    <div class="title">
+        <p>The Best Seller of hitheme    </p>
+            <h1>
+
+
+                <span>
+                    Best
+                </span>
+                Seller
+            </h1>
+    
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-main">
+                    <div class="discount">9%</div>
+                <div class="label label-green">Pre-order</div>
+                <div class="product-container">
+                    <div class="p"(mouseover)="changeImage($event)"><img src="../assets/cam1.jpg" alt="Product" ></div>
+                    <div class="p"(mouseover)="changeImage($event)"><img src="../assets/ipad1.jpg" alt="Product" ></div>
+                    <div class="p"(mouseover)="changeImage($event)"><img src="../assets/lap1.jpg" alt="Product" ></div>
+                    <div class="p"(mouseover)="changeImage($event)"><img src="../assets/mob1.jpg" alt="Product" ></div>
+                    
+                </div>
+            <div class="image">
+                <img src="{{url}}"alt="Image" >
+
+            </div>
+                <div class="cart-line">
+
+                </div>
+                <div class="cart-item">
+                    <ul>
+                        <li>
+                            <a href=""><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-search" aria-hidden="true"></i>
+                         
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa fa-heart" aria-hidden="true"></i>
+                         
+                            </a>
+                        </li>
+                       
+                    </ul>
+
+                </div>
+                <div class="content">
+                    <a href="">Customer review</a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+                    <p>
+                        <span class="money">$81.00</span><span class="old-price">&80.00</span>
+                    </p>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
